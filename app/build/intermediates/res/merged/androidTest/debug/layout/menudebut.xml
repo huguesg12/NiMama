@@ -1,0 +1,33 @@
+<LinearLayout 
+    android:orientation="vertical" 
+    android:layout_height="fill_parent" 
+    android:layout_width="fill_parent" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/add_task"
+        style="AppTheme"
+        android:text="@string/add_task" />
+    <Button
+        android:id="@+id/see_tasks"
+        style="AppTheme"
+        android:text="@string/see_tasks" />
+    <Button
+        android:id="@+id/manage_"
+        style="AppTheme"
+        android:text="@string/interrogation" />
+    <Button
+        android:id="@+id/about"
+        style="AppTheme"
+        android:text="@string/about" />
+    <TextView
+        android:id="@+id/about_content"
+        style="AppTheme"
+        android:visibility="gone"
+        android:text="@string/about_content" />
+	<Button
+        android:id="@+id/deconnexion"
+        style="AppTheme"
+        android:text="@string/deconnexion" />
+</LinearLayout>
+

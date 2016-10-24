@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DicoChinois</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="nouveau_mot">Ajouter un nouveau mot au dictionnaire</string>
+    <string name="voir_liste">Voir la liste de mots appris</string>
+    <string name="interrogation">Interrogation ecrite</string>
+    <string name="about">A propos</string>
+    <string name="hide">Cacher</string>
+    <string name="about_content">Hugues G.</string>
+    <string name="deconnexion">Se deconnecter</string>
+    
+    <string name="caractere">Caractere(s) chinois</string>
+    <string name="prononciation">Prononciation</string>
+    <string name="traduction">Traduction en français</string>
+    <string name="frequence">Frequence d\'utilisation (de 1 à 5)</string>
+    <string name="exemple">Exemple d\'utilisation</string>
+    <string name="connu">Estimez-vous bien connaitre ce caractere ?</string>
+    <string name="score">Score : </string>
+    <string name="nbI">Nombre d\'interrogations : </string>
+    
+    <string name="good_rep">Bonne reponse</string>
+    <string name="bad_rep">Mauvaise reponse</string>
+    <string name="dico_vide">Votre dictionnaire est vide</string>
+    
+    <string name="precedent">Precedent</string>
+    <string name="suivant">Suivant</string>
+    <string name="valider">Valider</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="close">Fermer</string>
+    <string name="login">Connexion</string>
+    <string name="create">Créer un compte</string>
+    <string name="wait">Merci de patienter</string>
+    <string name="erreur">Erreur</string>
+    <string name="cancel">Annuler</string>
+    
+    <string name="username">Nom d\'utilisateur</string>
+    <string name="password">Mot de passe</string>
+    <string name="passwordAgain">Merci de renseigner de nouveau votre mot de passe</string>
+    <string name="userpwd">Merci de renseigner un nom d\'utilisateur et un mot de passe</string>
+    <string name="pwdMatch">Les mots de passe ne sont pas identiques</string>
+    <string name="connexion">Erreur de connexion</string>
+    <string name="tableMissing">Erreur SQL. Merci de contacter l\'administrateur</string>
+    <string name="invalid">Le nom d\'utilisateur ou le mot de passe ne conviennent pas</string>
+        
+    <string name="synchro">Synchroniser</string>
+
+</resources>

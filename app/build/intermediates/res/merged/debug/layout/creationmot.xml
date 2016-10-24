@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	
+	    <TextView
+	        android:id="@+id/caractere"
+	        style="AppTheme"
+	        android:text="@string/caractere" />
+	
+	    <EditText
+	        android:id="@+id/input_caractere"
+	        style="AppTheme" />
+	
+	    <TextView
+	        android:id="@+id/prononciation"
+	        style="AppTheme"
+	        android:visibility="gone"
+	        android:text="@string/prononciation" />
+	
+	    <EditText
+	        android:id="@+id/input_prononciation"
+	        android:visibility="gone"
+	        style="AppTheme" />
+	
+	    <TextView
+	        android:id="@+id/traduction"
+	        android:visibility="gone"
+	        style="AppTheme"
+	        android:text="@string/traduction" />
+	
+	    <EditText
+	        android:id="@+id/input_traduction"
+	        android:visibility="gone"
+	        style="AppTheme" />
+	
+	    <TextView
+	        android:id="@+id/frequence"
+	        android:visibility="gone"
+	        style="AppTheme"
+	        android:text="@string/frequence" />
+	
+	    <EditText
+	        android:id="@+id/input_frequence"
+	        android:visibility="gone"
+	        style="AppTheme" />
+		
+		<Button
+	        android:id="@+id/suivant"
+	        style="AppTheme"
+	        android:visibility="gone"
+	        android:text="@string/suivant" />
+	
+		<Button
+	        android:id="@+id/precedent"
+	        style="AppTheme"
+	        android:visibility="gone"
+	        android:text="@string/precedent" />
+	    <Button
+	        android:id="@+id/valider_caractere"
+	        style="AppTheme"
+	        android:text="@string/valider" />
+	
+	    <Button
+	        android:id="@+id/close_caractere"
+	        style="AppTheme"
+	        android:text="@string/close" />
+	    
+	</LinearLayout>
+</ScrollView>

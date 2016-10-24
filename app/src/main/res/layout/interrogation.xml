@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/question"
+        style="AppTheme" />
+
+    <EditText
+        android:id="@+id/reponse"
+        style="AppTheme" />
+
+    <Button
+        android:id="@+id/valider_reponse"
+        style="AppTheme"
+        android:text="@string/valider" />
+    
+    <Button
+        android:id="@+id/close_interro"
+        style="AppTheme"
+        android:text="@string/close" />
+
+    <TextView
+        android:id="@+id/correction"
+        style="AppTheme" />
+
+</LinearLayout>
